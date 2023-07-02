@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <section id="headerNavigation">
+            <section id="headerNavigation"> 
                 <a href="">Logo</a>
                 <nav id="navigation">
                     <a href="">Home</a>
@@ -17,20 +17,31 @@
                     <a href="">Call Us</a>
                 </nav>
             </section>
-            <section id="headerTitle">
+            <section id="headerTitle"> <!--JUDUL-->
                 <h1>Top Rated E-Groceries shop in Indonesia</h1>
-                <h3>Every Day With Best Ingredients</h3>
+                <h3 id="subheaderTitle">Every Day With Best Ingredients</h3>
             </section>
         </header>
         <main>
             <section id="CallUs">
-                <article id="article">
+                <article id="article"> <!--GAMBAR-->
                     <img src="assets/gambar1.jpg">
                     <h5>setiap hari beli sayur dan buah yang segar disini</h5>
                 </article>
-                <section class="form">
+                <section class="form"> <!--FORM PENGISIAN-->
                     <h3 class="titleCallUs">Contact Us</h3>
                     <h5 class="titleCallUs">Sales akan mengubungi anda 2 x 24 jam</h5>
+                    <form>
+                        <label for="Name">Your Name:</label><br>
+                        <input type="text" id="Name" name="Name"><br>
+                        <label for="email">Email Addres:</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <label for="number">Phone Number:</label><br>
+                        <input type="text" id="number" name="number"><br>
+                        <label for="message">Message:</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                        <button>Send</button>
+                    </form>
                 </section>
             </section>
         </main>

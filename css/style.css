@@ -7,19 +7,25 @@
 #navigation {
     display: flex;
     gap: 10px;
+    padding: 15px;
 }
 
 #headerTitle {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: burlywood;
+    padding: 30px;
+}
+
+#subheaderTitle {
+    color: grey;
 }
 
 #CallUs {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 20px;
+    padding: 30px;
 }
 
 #article {
@@ -34,7 +40,7 @@
 }
 
 #form {
-    background-color: aliceblue;
+    background-color: black;
     flex-basis: 45%;
     flex-grow: 0;
     margin-right: 32px;
