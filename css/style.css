@@ -1,0 +1,46 @@
+#headerNavigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+#navigation {
+    display: flex;
+    gap: 10px;
+}
+
+#headerTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+#CallUs {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#article {
+    flex-basis: 55%;
+    flex-grow: 0;
+    margin-left: 32px;
+}
+
+#article img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#form {
+    background-color: aliceblue;
+    flex-basis: 45%;
+    flex-grow: 0;
+    margin-right: 32px;
+    border-radius: 6px;
+}
+
+#titleCallUs {
+    margin: 9px 9px;
+}
