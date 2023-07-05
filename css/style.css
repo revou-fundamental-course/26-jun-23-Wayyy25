@@ -1,12 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.navItem {
+    border: 1px solid black;
+    padding: 5px 5px; 
+}
+
+
+
 #headerNavigation {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
 }
 
 #navigation {
     display: flex;
-    gap: 10px;
     padding: 15px;
 }
 
@@ -17,19 +29,21 @@
     padding: 30px;
 }
 
-#subheaderTitle {
+.subheaderTitle {
     color: grey;
+    margin-top: 25px;
 }
 
 #CallUs {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
     padding: 30px;
 }
 
 #article {
-    flex-basis: 55%;
+    flex-basis: 45%;
     flex-grow: 0;
     margin-left: 32px;
 }
@@ -40,13 +54,86 @@
 }
 
 #form {
-    background-color: black;
-    flex-basis: 45%;
+    background-color: rgb(230, 227, 227);
+    flex-basis: 30%;
     flex-grow: 0;
-    margin-right: 32px;
     border-radius: 6px;
+    padding: 50px 75px;
 }
 
-#titleCallUs {
-    margin: 9px 9px;
+.titleCallUs1 {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.titleCallUs2 {
+    font-size: 15px;
+}
+ 
+.button1 {
+    border: none;   
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 6px;
+ }
+
+input {
+    margin: 15px 0px;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 5px;
+}
+
+textarea {
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 5px;
+}
+
+.inputan {
+    margin-top: 60px;
+}
+
+.text1 {
+    margin: 20px;
+    font-style: italic;
+}
+
+.gambar2 {
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.containerprofile {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile {
+    margin-left: 15px;
+}
+
+.numbers {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.keunggulanItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
