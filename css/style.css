@@ -7,7 +7,9 @@
 
 .navItem {
     border: 1px solid black;
-    padding: 5px 5px; 
+    padding: 10px 10px; 
+    align-self: center;
+    border-radius: 6px;
 }
 
 .slider {
@@ -17,12 +19,15 @@
 #headerNavigation {
     display: flex;
     justify-content: space-between;
-    background-color: azure;
 }
 
 #navigation {
     display: flex;
     padding: 15px;
+}
+
+#barisatas {
+    padding: 10px;
 }
 
 #headerTitle {
@@ -113,12 +118,13 @@ textarea {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .containerprofile {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .profile {
@@ -150,11 +156,6 @@ textarea {
     padding: 20px;
 }
 
-.baris {
-    padding: 15px 0px;
-    border: none;
-}
-
 /* OUR PACKAGE */
 
 .headerBawah {
@@ -183,32 +184,22 @@ textarea {
     justify-content: center;
 }
 
-#daftarFitur2 {
+#keteranganfitur {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}
-
-#keteranganfitur1 {
-    display: flex;
-    flex-direction: column;
     width: 300px;
-    padding: 100px 20px;
-    margin: 0px 100px;
+    margin: 60px 60px;
 }
 
-#keteranganfitur2 {
+#keteranganfitur .text{
     display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding: 100px 20px;
-    margin: 0px 100px;
+flex-direction: column;
+margin-left: 20px;
+
 }
 
-.penjelasanfitur {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#keteranganfitur .text h4 {
+    line-height: 50px;
 }
 
 #teks {
